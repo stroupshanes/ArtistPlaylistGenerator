@@ -1,0 +1,24 @@
+.page{
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    margin-top: 35px;
+}
+
+.container{margin: auto 10px;
+   width: auto;
+   height: 2000px;
+   margin: auto 0px;
+   text-align: center;
+   background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+   font-family: Tahoma, sans-serif;
+}
+.buttons{
+   font-family: Tahoma, sans-serif;
+   margin-bottom: 30px;
+}
+.url{
+   font-size: 12px;
+}
+.accesstoken{
+   color: #DC143C;
+   text-decoration: underline;
+}
