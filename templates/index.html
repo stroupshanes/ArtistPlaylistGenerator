@@ -1,0 +1,23 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body class="page">
+        <section>
+                <div class="container">
+                <h1>Spotify Artist Playlist Generator</h1>
+                <p>Login below to create individual artist playlists from each of your liked songs on Spotify.</p>
+                <a href='https://accounts.spotify.com/authorize?client_id=0313271346934574af7384a3ecc7d40f&redirect_uri=http://stroupshanes.pythonanywhere.com/&scope=user-library-read%20playlist-modify-public&response_type=token'><button class="buttons" id="btn-login">Login</button></a>
+                <p>Once you've logged in, copy & paste the access token from the url above into the form below. Your URL should look something like the below:</p>
+                <p class ="url"><big><big>&rarr;</big></big>  http://stroupshanes.pythonanywhere.com/#access_token=<b class="accesstoken">(Your Access Token Here)</b>&token_type=Bearer&expires_in=3600  <big><big>&larr;</big></big></p>
+                <form method = "POST">
+                    <input name = "text">
+                    <input type = "submit" class="buttons">
+                </form>
+            </div>
+        </section>
+
+</body>
+</html>
